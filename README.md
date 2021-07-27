@@ -1,2 +1,2 @@
 # shopindia
-it is a demo interface of a e-commerce website.
+this website is helpful to shop all the products
