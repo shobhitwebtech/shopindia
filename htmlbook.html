@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Css\htmlbook.css">
+  <title>Online Shopping</title>
+  <link rel="icon" href="img\logo.jpg" type="image/gif" sizes="16x16">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lobster+Two&family=Neuton:wght@200&display=swap">
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swapfamily=Monda&display=swap" rel="stylesheet">
+</head>
+
+<body class="shop">
+  <header>
+    <div class="title">
+      <a href="index.html">ShopIndia</a>
+    </div>
+    <ul class="nav-links">
+      <input type="text" placeholder="Search..">
+      <button type="click">Search</button>
+	  </ul>
+	  
+	  <!-- login form -->
+    <div class="displaybtn">
+   <button onclick="document.getElementById('id01').style.display='block'" " style="width:auto;">Login</button>
+   </div>
+   <div id="login">
+
+<div id="id01" class="modal">
+   
+  <form class="modal-content animate" action="/action_page.php" method="post">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="IMG\logimg.png" alt="Avatar" class="avatar">
+    </div>
+
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+        
+      <button type="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+	  <span class="nacc">New Customer <a href="createacc.html">Click here</a></span>
+    </div>
+  </form>
+</div>
+<script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+</div>
+    </ul>
+    <div class="cart">
+      <a href="checkout.html"><img src="IMG\cartimg-removebg-preview.png"></a>
+      <h4>Cart</h4>
+    </div>
+  </header>
+  <section class="front">
+    <ul class="category">
+      <li><a href="mobile.html">Mobile</a></li>
+      <li><a href="#laptop">Laptop</a></li>
+      <li><a href="#book">Books</a></li>
+      <li><a href="#mask">Masks</a></li>
+      <li><a href="#food">Food</a></li>
+    </ul>
+
+  </section>
+   <div class="container">
+      <div id="navbar" class="brands">
+        <div id="img" class="brands">
+          <img src="IMG\mastering-html-css-javascript.jpeg" alt="mastering-html-css-javascript" />
+<div class="buy" >
+ <button type="Buy">Add To Cart</button>
+  <button type="Buy">Buy Now</button>
+ </div>
+        </div>
+        <div id="high" class="brands">
+          <h1>Mastering HTML, CSS & Javascript Web Publishing  (English, Paperback, Lemay Laura)</h1>
+    <h3>₹ 410</h3>
+	<h4>Author</h4>
+	<p>Lemay Laura</p>
+    <h4>Highlights</h4>
+    <ul>
+  <li>Language: English</li>
+  <li>Binding: Paperback</li>
+  <li>Publisher: BPB Publications</li>
+  <li>Genre: Computers</li>
+  <li>ISBN: 9788183335157, 9788183335157</li>
+  <li>Pages: 742</li>
+</ul>
+        </div>
+      </div>
+    </div>
+<footer>&copy; Copyright 2020 ShopIndia.in</>
+</footer>
+

@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Css\mobile.css">
+    <title>Online Shopping</title>
+    <title>Online Shopping</title>
+  <link rel="icon" href="img\logo.jpg" type="image/gif" sizes="16x16">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lobster+Two&family=Neuton:wght@200&display=swap">
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swapfamily=Monda&display=swap" rel="stylesheet">
+</head>
+
+<body class="shop">
+  <header>
+    <div class="title">
+      <a href="index.html">ShopIndia</a>
+    </div>
+    <ul class="nav-links">
+      <input type="text" placeholder="Search..">
+      <button type="click">Search</button>
+	  </ul>
+	  
+	  <!-- login form -->
+    <div class="displaybtn">
+   <button onclick="document.getElementById('id01').style.display='block'" " style="width:auto;">Login</button>
+   </div>
+   <div id="login">
+
+<div id="id01" class="modal">
+   
+  <form class="modal-content animate" action="/action_page.php" method="post">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="IMG\logimg.png" alt="Avatar" class="avatar">
+    </div>
+
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+        
+      <button type="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+	  <span class="nacc">New Customer <a href="createacc.html">Click here</a></span>
+    </div>
+  </form>
+</div>
+<script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+</div>
+    </ul>
+    <div class="cart">
+      <a href="checkout.html"><img src="IMG\cartimg-removebg-preview.png"></a>
+      <h4>Cart</h4>
+    </div>
+  </header>
+  <section class="front">
+    <ul class="category">
+      <li><a href="mobile.html">Mobile</a></li>
+      <li><a href="laptop.html">Laptop</a></li>
+      <li><a href="book.html">Books</a></li>
+      <li><a href="mask.html">Masks</a></li>
+      <li><a href="food.html">Food</a></li>
+    </ul>
+	</section>
+	<h1>Mobile Phones</h1>
+    <div class="container">
+      <h3>Brands</h3>
+      <div id="navbar" class="brands">
+        <div id="img-1" class="brands">
+          <img src="IMG\samsungimg.jpg" alt="Samsung" />
+          <h4>Samsung</h4>
+        </div>
+        <div id="img-2" class="brands">
+          <img src="IMG\iphoneimg.jpg" alt="Iphone" />
+          <h4>Iphone</h4>
+        </div>
+        <div id="img-3" class="brands">
+          <img src="IMG\realmeimg.jpg" alt="Realme" />
+          <h4>Realme</h4>
+        </div>
+        <div id="img-4" class="brands">
+          <img src="IMG\Xiaomiimg.jpg" alt="Xiaomi" />
+          <h4>Xiaomi</h4>
+        </div>
+        <div id="img-5" class="brands">
+          <img src="IMG\vivoimg.jpeg" alt="Vivo" />
+          <h4>Vivo</h4>
+        </div>
+      </div>
+    </div>
+	<!-- Latest MobilePhone -->
+    <div class="latest">
+      <h3>Latest MobilePhone</h3>
+      <div id="navbar" class="latest">
+        <div id="mobimg-1" class="latest">
+          <img src="IMG\samsung-galaxy-s10-lite.jpeg" alt="Samsung Galaxy S10 Lite" />
+          <h4>Samsung Galaxy S10 Lite</h4>
+		  <p>Qualcomm Snapdragon 855</p>
+		  <h5>Price₹42,999<h5>
+		  <div class="buy">
+ <button type="Buy">Add To Cart</button>
+  <button type="Buy">Buy Now</button>
+ </div>
+        </div>
+        <div id="mobimg-2" class="latest">
+          <img src="IMG\samsung-galaxy-a51.jpeg" alt="Samsung Galaxy A51" />
+          <h4>Samsung Galaxy A51</h4>
+		  <p>48MP Quad Camera</p>
+		   <h5>Price₹23,999<h5>
+		   <div class="buy" >
+ <button type="Buy">Add To Cart</button>
+  <button type="Buy">Buy Now</button>
+ </div>
+        </div>
+        <div id="mobimg-3" class="latest">
+          <img src="IMG\realme-x2-pro.jpeg" alt="Realme X2 Pro" />
+          <h4>Realme X2 Pro</h4>
+		  <p>64MP Quad Camera</p>
+		   <h5>Price₹31,999<h5>
+		   <div class="buy" >
+ <button type="Buy">Add To Cart</button>
+  <button type="Buy">Buy Now</button>
+ </div>
+        </div>
+        <div id="mobimg-4" class="latest">
+          <img src="IMG\redmi-note-9-pro-max-removebg-preview.png" alt="Redmi Note 9 Pro Max" />
+          <h4>Redmi Note 9 Pro Max</h4>
+		  <p>Qualcomm Snapdragon 720G</p>
+		   <h5>Price₹18,499<h5>
+		   <div class="buy" >
+ <button type="Buy">Add To Cart</button>
+  <button type="Buy">Buy Now</button>
+ </div>
+        </div>
+        <div id="mobimg-5" class="latest">
+          <img src="IMG\vivo-v19.jpeg" alt="Vivo" />
+          <h4>Vivo V19 </h4>
+		   <p>32MP + 8MP Dual Front Camera</p>
+		   <h5>Price₹27,990<h5>
+		   <div class="buy" >
+ <button type="Buy">Add To Cart</button>
+  <button type="Buy">Buy Now</button>
+ </div>
+        </div>
+      </div>
+    </div>
+	<!-- Bestseller MobilePhone -->
+	<div class="Bestseller">
+      <h3>Bestseller MobilePhone</h3>
+      <div id="navbar" class="Bestseller">
+        <div id="bstimg-1" class="Bestseller">
+          <img src="IMG\realme-5.jpeg" alt="Realme 5" />
+          <h4>Realme 5</h4>
+		  <p>12MP Quad Camera</p>
+		  <h5>Price₹9,999<h5>
+		  <div class="buy" >
+ <button type="Buy">Add To Cart</button>
+  <button type="Buy">Buy Now</button>
+ </div>
+        </div>
+        <div id="bstimg-2" class="Bestseller">
+          <img src="IMG\vivo-z1pro.jpeg" alt="Vivo-Z1Pro" />
+          <h4>Vivo-Z1Pro</h4>
+		  <p>32MP Selfie Camera</p>
+		   <h5>Price₹23,999<h5>
+		   <div class="buy" >
+ <button type="Buy">Add To Cart</button>
+  <button type="Buy">Buy Now</button>
+ </div>
+        </div>
+        <div id="bstimg-3" class="Bestseller">
+          <img src="IMG\realme-x2-pro.jpeg" alt="Realme X2 Pro" />
+          <h4>Realme X2 Pro</h4>
+		  <p>64MP Quad Camera</p>
+		   <h5>Price₹14,990<h5>
+		   <div class="buy" >
+ <button type="Buy">Add To Cart</button>
+  <button type="Buy">Buy Now</button>
+ </div>
+        </div>
+        <div id="bstimg-4" class="Bestseller">
+          <img src="IMG\redmi-note-7s.jpeg" alt="Redmi Note 7s" />
+          <h4>Redmi Note 7s</h4>
+		  <p>48MP + 5MP Rear Camera</p>
+		   <h5>Price₹9,999<h5>
+		   <div class="buy" >
+ <button type="Buy">Add To Cart</button>
+  <button type="Buy">Buy Now</button>
+ </div>
+        </div>
+        <div id="bstimg-5" class="Bestseller">
+          <img src="IMG\samsung-galaxy-a50.jpeg" alt="Samsung Galaxy A50" />
+          <h4>Samsung Galaxy A50</h4>
+		   <p>25MP + 5MP + 8MP Camera</p>
+		   <h5>Price₹15,499<h5>
+		   <div class="buy" >
+ <button type="Buy">Add To Cart</button>
+  <button type="Buy">Buy Now</button>
+ </div>
+        </div>
+      </div>
+    </div>
+	<!-- Selfie camera Phones -->
+	<div class="Selfie">
+      <h3>Selfie Camera Phones</h3>
+      <div id="navbar" class="Selfie">
+        <div id="selfieimg-1" class="Selfie">
+          <img src="IMG\samsung-galaxy-a50.jpeg" alt="Samsung Galaxy A50" />
+          <h4>Samsung Galaxy A50</h4>
+		  <p>25MP Selfie Camera</p>
+		  <h5>Price₹15,499<h5>
+		  <div class="buy" >
+ <button type="Buy">Add To Cart</button>
+  <button type="Buy">Buy Now</button>
+ </div>
+        </div>
+        <div id="selfieimg-2" class="Selfie">
+          <img src="IMG\samsung-galaxy-a70.jpeg" alt="Samsung Galaxy A70" />
+          <h4>Samsung Galaxy A70</h4>
+		  <p>32MP Selfie Camera</p>
+		   <h5>Price₹30,090<h5>
+		   <div class="buy" >
+ <button type="Buy">Add To Cart</button>
+  <button type="Buy">Buy Now</button>
+ </div>
+        </div>
+        <div id="selfieimg-3" class="Selfie">
+          <img src="IMG\redmi-k20-pro.jpeg" alt="Redmi K20Pro" />
+          <h4>Redmi K20Pro</h4>
+		  <p>20MP Selfie Camera</p>
+		   <h5>Price₹24,999<h5>
+		   <div class="buy" >
+ <button type="Buy">Add To Cart</button>
+  <button type="Buy">Buy Now</button>
+ </div>
+        </div>
+        <div id="selfieimg-4" class="Selfie">
+          <img src="IMG\realme-3-pro.jpeg" alt="Realme 3Pro" />
+          <h4>Realme 3Pro</h4>
+		  <p>25MP Selfie Camera</p>
+		   <h5>Price₹12,999<h5>
+		   <div class="buy" >
+ <button type="Buy">Add To Cart</button>
+  <button type="Buy">Buy Now</button>
+ </div>
+        </div>
+        <div id="selfieimg-5" class="Selfie">
+          <img src="IMG\realme-x3-superzoom.jpeg" alt="Realme X3 SuperZoom" />
+          <h4>Realme X3 SuperZoom</h4>
+		   <p>32MP Dual Selfie Camera</p>
+		   <h5>Price₹15,499<h5>
+		   <div class="buy" >
+ <button type="Buy">Add To Cart</button>
+  <button type="Buy">Buy Now</button>
+ </div>
+        </div>
+      </div>
+    </div>
+	<footer>&copy; Copyright 2020 ShopIndia.in</>
+</footer>
+  </body>
+</html>

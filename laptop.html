@@ -1,0 +1,192 @@
+<html>
+<head>
+      <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Css\laptop.css">
+  <title>Online Shopping</title>
+  <link rel="icon" href="img\logo.jpg" type="image/gif" sizes="16x16">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lobster+Two&family=Neuton:wght@200&display=swap">
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swapfamily=Monda&display=swap" rel="stylesheet">
+</head>
+<body class="shop">
+  <header>
+    <div class="title">
+      <a href="index.html">ShopIndia</a>
+    </div>
+    <ul class="nav-links">
+      <input type="text" placeholder="Search..">
+      <button type="click">Search</button>
+	  </ul>
+	  
+	  <!-- login form -->
+    <div class="displaybtn">
+   <button onclick="document.getElementById('id01').style.display='block'" " style="width:auto;">Login</button>
+   </div>
+   <div id="login">
+
+<div id="id01" class="modal">
+   
+  <form class="modal-content animate" action="/action_page.php" method="post">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="IMG\logimg.png" alt="Avatar" class="avatar">
+    </div>
+
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+        
+      <button type="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+	  <span class="nacc">New Customer <a href="createacc.html">Click here</a></span>
+    </div>
+  </form>
+</div>
+<script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+</div>
+    </ul>
+    <div class="cart">
+      <a href="checkout.html"><img src="IMG\cartimg-removebg-preview.png"></a>
+      <h4>Cart</h4>
+    </div>
+  </header>
+  <section class="front">
+    <ul class="category">
+      <li><a href="mobile.html">Mobile</a></li>
+      <li><a href="laptop.html">Laptop</a></li>
+      <li><a href="book.html">Books</a></li>
+      <li><a href="mask.html">Masks</a></li>
+      <li><a href="food.html">Food</a></li>
+    </ul>
+	</section>
+	<h1>Laptops</h1>
+ <div class="container">
+      <div id="navbar" class="brands">
+	   <div id="img" class="brands">
+	   <img src="IMG\laptops\asus-zenbook-img1.jpeg" alt="Asus Zenbook">
+	   
+	   </div>
+	   <div id="desc" class="brands">
+	   <h1>Asus ZenBook Core i5 8th Gen - (8 GB/256 GB SSD/Windows 10 Home) UX430UA-GV573T Thin and Light Laptop  (14 inch, Gold Metal, 1.3 kg)</h1>
+	     <h3>₹57,990</h3>
+    <ul>
+  <li>Intel Core i5 Processor(8th Gen)</li>
+  <li>8GB DDR3 RAM</li>
+  <li>64bit Windows 10 Operating System</li>
+  <li>256GB SSD</li>
+  <li>35.56cm(14inch)Display</li>
+  <li>Asus Splendid,Asus Smart Gesture,ICEsound</li>
+  <li>1 Year Limited International Hardware Warranty</li>
+</ul>
+<div class="buy" >
+ <button type="Buy">Add To Cart</button>
+  <button type="Buy">Buy Now</button>
+ </div>
+	  </div>
+	   </div>
+	  </div>
+	  <!-- 2nd Laptop -->
+	   <div class="container">
+      <div id="navbar" class="brands">
+	   <div id="img" class="brands">
+	   <img src="IMG\laptops\hp-15q-apu dual core-2.jpeg" alt="Asus Zenbook">
+	   
+	   </div>
+	   <div id="desc" class="brands">
+	   <h1>HP 15q APU Dual Core A9 - (4 GB/1 TB HDD/Windows 10 Home) 15q-dy0007AU Laptop  (15.6 inch, Jet Black, 2.18 kg)</h1>
+	     <h3>₹31,414</h3>
+    <ul>
+  <li>AMD APU Dual Core A9 Processor</li>
+  <li>4GB DDR4 RAM</li>
+  <li>64bit Windows 10 Operating System</li>
+  <li>1TB HDD</li>
+  <li>39.62cm(15.6inch)Display</li>
+  <li>HP Audio Switch,HP JumpStart,HP Support Assistant</li>
+  <li>1 Year Onsite Warranty</li>
+</ul>
+<div class="buy" >
+ <button type="Buy">Add To Cart</button>
+  <button type="Buy">Buy Now</button>
+ </div>
+	  </div>
+	   </div>
+	  </div>
+	  <!-- 3rd Laptop -->
+	   <div class="container">
+      <div id="navbar" class="brands">
+	   <div id="img" class="brands">
+	   <img src="IMG\laptops\acer-swift 3.jpeg" alt="Asus Zenbook">
+	   
+	   </div>
+	   <div id="desc" class="brands">
+	   <h1>Acer Swift 3 Core i5 8th Gen - (8 GB/512 GB SSD/Windows 10 Home/2 GB Graphics) SF314-55G Thin and Light Laptop  (14 inch, Sparkly Silver, 1.35 kg)</h1>
+	     <h3>₹54,990</h3>
+    <ul>
+  <li>Intel Core i5 Processor(8th Gen)</li>
+  <li>8GB DDR4 RAM</li>
+  <li>64bit Windows 10 Operating System</li>
+  <li>512GB SSD</li>
+  <li>35.56cm(14inch)Display</li>
+  <li>Acer Care Center,Acer QuikAcess,Acer Configuration Manager</li>
+  <li>1 Year International Travelers Warranty</li>
+</ul>
+<div class="buy" >
+ <button type="Buy">Add To Cart</button>
+  <button type="Buy">Buy Now</button>
+ </div>
+	  </div>
+	   </div>
+	  </div>
+	   <!-- 4rth Laptop -->
+	   <div class="container">
+      <div id="navbar" class="brands">
+	   <div id="img" class="brands">
+	   <img src="IMG\laptops\apple-macbookpro.jpeg" alt="Asus Zenbook">
+	   
+	   </div>
+	   <div id="desc" class="brands">
+	   <h1>Apple MacBook Pro with Touch Bar Core i5 10th Gen -<br> (16 GB/512 GB SSD/Mac OS Catalina) MWP42HN/A  (13 inch, Space Grey, 1.4 kg)</h1>
+	     <h3>₹1,74,900</h3>
+    <ul>
+  <li>Intel Core i5 Processor(10th Gen)</li>
+  <li>16GB LPDDR4X RAM</li>
+  <li>Mac OS Operating System</li>
+  <li>512GB SSD</li>
+  <li>33.02cm(13inch)Display</li>
+  <li>Built-inApps:Photos.iMovie,GarageBand,Pages,Numbers Keynote,Siri,Safari,Mail,FaceTime,Messages,Maps,News,Stocks,Home,<br>VoiceMemos,Notes,Calender,Contacts,Reminders,Photo Booth,Preview,Music,Podcasts,<br>Tv,Books,AppStore,TimeMachine,Find My QuickTimePlayer</li>
+  <li>1 Year Limited Hardware Warranty</li>
+</ul>
+<div class="buy" >
+ <button type="Buy">Add To Cart</button>
+  <button type="Buy">Buy Now</button>
+ </div>
+	  </div>
+	   </div>
+	  </div>
+ <footer>&copy; Copyright 2020 ShopIndia.in</>
+</footer>
+</body>
+</html>

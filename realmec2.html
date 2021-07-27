@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Css\realmec2.css">
+  <title>Online Shopping</title>
+  <link rel="icon" href="img\logo.jpg" type="image/gif" sizes="16x16">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lobster+Two&family=Neuton:wght@200&display=swap">
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swapfamily=Monda&display=swap" rel="stylesheet">
+</head>
+
+<body class="shop">
+  <header>
+    <div class="title">
+      <a href="index.html">ShopIndia</a>
+    </div>
+    <ul class="nav-links">
+      <input type="text" placeholder="Search..">
+      <button type="click">Search</button>
+	  </ul>
+	  
+	  <!-- login form -->
+    <div class="displaybtn">
+   <button onclick="document.getElementById('id01').style.display='block'" " style="width:auto;">Login</button>
+   </div>
+   <div id="login">
+
+<div id="id01" class="modal">
+   
+  <form class="modal-content animate" action="/action_page.php" method="post">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="IMG\logimg.png" alt="Avatar" class="avatar">
+    </div>
+
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+        
+      <button type="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+	  <span class="nacc">New Customer <a href="createacc.html">Click here</a></span>
+    </div>
+  </form>
+</div>
+<script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+</div>
+    </ul>
+    <div class="cart">
+      <a href="checkout.html"><img src="IMG\cartimg-removebg-preview.png"></a>
+      <h4>Cart</h4>
+    </div>
+  </header>
+  <section class="front">
+    <ul class="category">
+      <li><a href="mobile.html">Mobile</a></li>
+      <li><a href="#laptop">Laptop</a></li>
+      <li><a href="#book">Books</a></li>
+      <li><a href="#mask">Masks</a></li>
+      <li><a href="#food">Food</a></li>
+    </ul>
+
+  </section>
+   <div class="container">
+      <div id="navbar" class="brands">
+        <div id="img" class="brands">
+		<div class = "main">
+		<div class="track">
+		<ul>
+		<li id="slide1"><img src="IMG\realme-c2\realme-c2-1.jpeg" alt=""></li>
+		<li id="slide2"><img src="IMG\realme-c2\realme-c2-2.jpeg" alt=""></li>
+		<li id="slide3"><img src="IMG\realme-c2\realme-c2-3.jpeg" alt=""></li>
+		<li id="slide4"><img src="IMG\realme-c2\realme-c2-4.jpeg" alt=""></li>
+		<li id="slide5"><img src="IMG\realme-c2\realme-c2-5.jpeg" alt=""></li>
+		<li id="slide6"><img src="IMG\realme-c2\realme-c2-6.jpeg" alt=""></li>
+		<li id="slide7"><img src="IMG\realme-c2\realme-c2-7.jpeg" alt=""></li>
+		<li id="slide8"><img src="IMG\realme-c2\realme-c2-8.jpeg" alt=""></li>
+		<li id="slide9"><img src="IMG\realme-c2\realme-c2-9.jpeg" alt=""></li>
+		<li id="slide10"><img src="IMG\realme-c2\realme-c2-10.jpeg" alt=""></li>
+		
+		</ul>
+		</div>
+		<div class="slides">
+		<a href="#slide1"><img src="IMG\realme-c2\realme-c2-1.jpeg" alt=""></a>
+		<a href="#slide2"><img src="IMG\realme-c2\realme-c2-2.jpeg" alt=""></a>
+		<a href="#slide3"><img src="IMG\realme-c2\realme-c2-3.jpeg" alt=""></a>
+		<a href="#slide4"><img src="IMG\realme-c2\realme-c2-4.jpeg" alt=""></a>
+		<a href="#slide5"><img src="IMG\realme-c2\realme-c2-5.jpeg" alt=""></a>
+		<a href="#slide6"><img src="IMG\realme-c2\realme-c2-6.jpeg" alt=""></a>
+		<a href="#slide7"><img src="IMG\realme-c2\realme-c2-7.jpeg" alt=""></a>
+		<a href="#slide8"><img src="IMG\realme-c2\realme-c2-8.jpeg" alt=""></a>
+		<a href="#slide9"><img src="IMG\realme-c2\realme-c2-9.jpeg" alt=""></a>
+		<a href="#slide10"><img src="IMG\realme-c2\realme-c2-10.jpeg" alt=""></a>
+		
+		
+		</div>
+		</div>
+         <!--  <img src="F:\ShopIndia\img\mi-redmi8.jpeg" alt="Redmi Note 8" /> -->
+<div class="buy" >
+ <button type="Buy">Add To Cart</button>
+  <button type="Buy">Buy Now</button>
+ </div>
+        </div>
+        <div id="high" class="brands">
+          <h1>Realme C2 (Diamond Blue, 32 GB) (2 GB RAM)</h1>
+    <h3>₹6,999</h3>
+    <h4>Highlights</h4>
+    <ul>
+  <li>2 GB RAM | 32 GB ROM | Expandable Upto 256 GB</li>
+  <li>15.49 cm (6.1 inch) HD+ Display</li>
+  <li>13MP + 2MP | 5MP Front Camera</li>
+  <li>4000 mAh Battery</li>
+  <li>MediaTek P22 Octa Core 2.0 GHz Processor</li>
+  <li>Dual Nano SIM slots and Memory Card Slot</li>
+  <li>Face Unlock</li>
+</ul>
+ <h3>Description</h3>
+<p>
+Say hello to the Realme C2 smartphone whose stylish design encompasses plenty of features, such as a 13 MP + 2 MP rear camera, a 5 MP front camera, and a 4000 mAh battery to make your life simpler.
+</p>
+        </div>
+      </div>
+    </div>
+	<div class="desc">
+
+<h3>Product Description</h3>
+<h4>Diamond-cut Design</h4>
+<p>The Realme C2 features a Diamond-back design with nanoscale composite particles that give it a shiny and premium look.
+</p>
+<h4>Dewdrop Full Screen</h4>
+<p>Viewing pictures and watching videos become enjoyable on the C2’s 15.5-cm (6.1) display. While the curved boundaries at the dewdrop area add to the beauty of the screen, the C2’s 19.5:9 aspect ratio and the 89.35% screen-to-body ratio provide a truly immersive visual experience.</p>
+  <h4>Massive 4000 mAh Battery</h4>
+  <p>Forget about charging your phone frequently during the day as the C2 comes with a massive 4000 mAh battery. The MediaTek CorePilot Technology, along with a 12nm efficient processor, balances the load effortlessly.</p>
+  <h4>13 MP + 2 MP AI Dual Camera</h4>
+  <p>The C2’s AI-powered dual camera setup, which comes with Chroma Boost, helps you take perfectly balanced pictures. You can take stunning portrait shots easily with the Bokeh effect. It also comes with other features such as HDR, Beautification, 1080p video recording and Slo-Mo Video.</p>
+  <h4>Powerful Performance</h4>
+  <p>Powered by a 2.0 GHz MediaTek Helio P22 octa-core processor and 2 GB of RAM, the C2 ensures a smooth and reliable experience. Baked in the TSMC 12nm FinFET process, its octa-core CPU and IMG PowerVR GE8320 GPU let you run all your apps and games seamlessly. It also comes with 32 GB of internal memory, allowing you to store your pictures, videos, and other files with ease.</p>
+  <h4>ColorOS 6.0 (Based on Android 9.0)</h4>
+  <p>Featuring a neat, borderless design and amazing features, the ColorOS 6.0 provides an easy and convenient way to do your daily operations. You can smoothly change tasks using Gesture Navigation and freely organise your apps using the APP Drawer Launcher.</p>
+  <h4>AI Facial Unlock</h4>
+  <p>Unlocking your phone is made more easy and secure. The C2’s Facial Unlock feature processes 128 identification points in just 0.3 seconds. It also comes with the Smart Lock feature which makes accessing your phone more convenient.</p>
+  <h4>Convenient Storage Options</h4>
+  <p>It comes with 2 SIM card slots and a dedicated micro SD card support for expansion up to 256 GB.</p>
+  <h4>Durable Build</h4>
+  <p>Having undergone about 10000 drop tests, 10000 USB tests and 10000 button tests, the C2 is built to last. It comes with the sturdy Corning Gorilla Glass and is also splash- and sweat-proof.</p>
+  <h4>Google Assistant</h4>
+  <p>You can multitask seamlessly anywhere and anytime by using Google Assistant on this phone. You can use your voice to ask answers for your queries. You can also ask it to play music, and help you to navigate, and more. You can activate it by saying “OK Google” or by long-pressing the home button. It is available in Hindi, English and eight other languages.</p>
+</div>
+<footer>&copy; Copyright 2020 ShopIndia.in</>
+</footer>
+

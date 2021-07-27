@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Css\redminote8.css">
+  <title>Online Shopping</title>
+  <link rel="icon" href="img\logo.jpg" type="image/gif" sizes="16x16">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lobster+Two&family=Neuton:wght@200&display=swap">
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swapfamily=Monda&display=swap" rel="stylesheet">
+</head>
+
+<body class="shop">
+  <header>
+    <div class="title">
+      <a href="index.html">ShopIndia</a>
+    </div>
+    <ul class="nav-links">
+      <input type="text" placeholder="Search..">
+      <button type="click">Search</button>
+	  </ul>
+	  
+	  <!-- login form -->
+    <div class="displaybtn">
+   <button onclick="document.getElementById('id01').style.display='block'" " style="width:auto;">Login</button>
+   </div>
+   <div id="login">
+
+<div id="id01" class="modal">
+   
+  <form class="modal-content animate" action="/action_page.php" method="post">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="IMG\logimg.png" alt="Avatar" class="avatar">
+    </div>
+
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+        
+      <button type="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+	  <span class="nacc">New Customer <a href="createacc.html">Click here</a></span>
+    </div>
+  </form>
+</div>
+<script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+</div>
+    </ul>
+    <div class="cart">
+      <a href="checkout.html"><img src="IMG\cartimg-removebg-preview.png"></a>
+      <h4>Cart</h4>
+    </div>
+  </header>
+  <section class="front">
+    <ul class="category">
+      <li><a href="mobile.html">Mobile</a></li>
+      <li><a href="#laptop">Laptop</a></li>
+      <li><a href="#book">Books</a></li>
+      <li><a href="#mask">Masks</a></li>
+      <li><a href="#food">Food</a></li>
+    </ul>
+
+  </section>
+   <div class="container">
+      <div id="navbar" class="brands">
+        <div id="img" class="brands">
+		<div class = "main">
+		<div class="track">
+		<ul>
+		<li id="slide1"><img src="IMG\redmi 8\mi-redmi8-1.jpeg" alt=""></li>
+		<li id="slide2"><img src="IMG\redmi 8\mi-redmi-8-2.jpeg" alt=""></li>
+		<li id="slide3"><img src="IMG\redmi 8\mi-redmi-8-3.jpeg" alt=""></li>
+		<li id="slide4"><img src="IMG\redmi 8\mi-redmi-8-4.jpeg" alt=""></li>
+		<li id="slide5"><img src="IMG\redmi 8\mi-redmi-8-5.jpeg" alt=""></li>
+		<li id="slide6"><img src="IMG\redmi 8\mi-redmi-8-6.jpeg" alt=""></li>
+		<li id="slide7"><img src="IMG\redmi 8\mi-redmi-8-7.jpeg" alt=""></li>
+		<li id="slide8"><img src="IMG\redmi 8\mi-redmi-8-8.jpeg" alt=""></li>
+		
+		</ul>
+		</div>
+		<div class="slides">
+		<a href="#slide1"><img src="IMG\redmi 8\mi-redmi8-1.jpeg" alt=""></a>
+		<a href="#slide2"><img src="IMG\redmi 8\mi-redmi-8-2.jpeg" alt=""></a>
+		<a href="#slide3"><img src="IMG\redmi 8\mi-redmi-8-3.jpeg" alt=""></a>
+		<a href="#slide4"><img src="IMG\redmi 8\mi-redmi-8-4.jpeg" alt=""></a>
+		<a href="#slide5"><img src="IMG\redmi 8\mi-redmi-8-5.jpeg" alt=""></a>
+		<a href="#slide6"><img src="IMG\redmi 8\mi-redmi-8-6.jpeg" alt=""></a>
+		<a href="#slide7"><img src="IMG\redmi 8\mi-redmi-8-7.jpeg" alt=""></a>
+		<a href="#slide8"><img src="IMG\redmi 8\mi-redmi-8-8.jpeg" alt=""></a>
+		</div>
+		</div>
+         <!--  <img src="F:\ShopIndia\img\mi-redmi8.jpeg" alt="Redmi Note 8" /> -->
+<div class="buy" >
+ <button type="Buy">Add To Cart</button>
+  <button type="Buy">Buy Now</button>
+ </div>
+        </div>
+        <div id="high" class="brands">
+          <h1>Redmi 8 (Onyx Black, 64 GB)  (4 GB RAM)</h1>
+    <h3>₹11,499</h3>
+    <h4>Highlights</h4>
+    <ul>
+  <li>4 GB RAM | 64 GB ROM | Expandable Upto 512 GB</li>
+  <li>15.8 cm (6.22 inch) HD+ Display</li>
+  <li>12MP + 2MP | 8MP Front Camera</li>
+  <li>5000 mAh Battery</li>
+  <li>Qualcomm Snapdragon 439 Processor</li>
+</ul>
+ <h3>Description</h3>
+<p>
+If you are a travel blogger, gamer, entertainment seeker, or a person who loves a high-end personal device, then the Redmi 8 has been created to meet your needs. This smartphone features a 15.8-cm (6.22) Dot Notch Display, a 12 MP + 2 MP AI Dual Camera, and a 5000 mAh High-capacity Battery to offer detailed views of the stunning photos that you can click all day long without running out of battery life.
+</p>
+        </div>
+      </div>
+    </div>
+	<div class="desc">
+
+<h3>Product Description</h3>
+<h4>AI Dual Camera</h4>
+<p>The Redmi 8 comes with a 12 MP AI Dual Camera that features a 2 MP Depth Sensor, f/1.8 Aperture, 1.4μm Pixel Size, a Dual PD AI Portrait Mode, and an AI Scene Detection function to let you click life-like photos with impressive details.
+</p>
+<h4>8 MP AI Selfie Camera</h4>
+<p>The 8 MP AI Selfie Camera is boosted by an AI Selfie Portrait Mode to click flawless selfies. Also, the AI Face Unlock function lets you unlock the phone with just a glance.</p>
+  <h4>High-capacity Battery</h4>
+  <p>You can easily charge the 5000 mAh battery using the Type C Port, and it supports 18 W Fast Charge. So, you can enjoy playing games, listening to music, and watching videos all-day-long without running out of battery life.</p>
+  <h4>Stunning Display</h4>
+  <p>The 15.8-cm (6.22) High-definition LCD Display comes with a Dot Notch Design and Corning Gorilla Glass 5 protection. As a result, you can experience immersive visuals on the sturdy display.</p>
+  <h4>Aura Mirror Design</h4>
+  <p>This is a stunning smartphone that comes with the Aura Mirror Design for a premium look. Also, it has a fingerprint scanner for easy unlocking. Furthermore, the nano-coating by P2i makes it a splash-proof smartphone.</p>
+  <h4>Fast and Powerful</h4>
+  <p>Powered by the Qualcomm Snapdragon 439 Octa-core Processor which comes with up to 2.0 GHz clock speed, the Redmi 8 lets you switch between tasks and apps easily. Also, you can seamlessly enjoy HD content and play HD games on this powerful device. The Redmi 8 also comes with a 2+1 SIM card slot along with a dedicated micro SD slot to expand memory up to 512 GB.</p>
+  <h4>Enjoy Your Music</h4>
+  <p>The Redmi 8 features a Wireless FM Radio and a 0.82CC Acoustic Chamber to let your favorite music take over your world. This smartphone also comes with a dedicated IR Blaster to let you control multiple devices with a simple tap on the Redmi 8.</p>
+</div>
+<footer>&copy; Copyright 2020 ShopIndia.in</>
+</footer>
+

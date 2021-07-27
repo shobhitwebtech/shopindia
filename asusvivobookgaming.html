@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Css\asusvivobookgaming.css">
+  <title>Online Shopping</title>
+  <link rel="icon" href="img\logo.jpg" type="image/gif" sizes="16x16">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lobster+Two&family=Neuton:wght@200&display=swap">
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swapfamily=Monda&display=swap" rel="stylesheet">
+</head>
+
+<body class="shop">
+  <header>
+    <div class="title">
+      <a href="index.html">ShopIndia</a>
+    </div>
+    <ul class="nav-links">
+      <input type="text" placeholder="Search..">
+      <button type="click">Search</button>
+	  </ul>
+	  
+	  <!-- login form -->
+    <div class="displaybtn">
+   <button onclick="document.getElementById('id01').style.display='block'" " style="width:auto;">Login</button>
+   </div>
+   <div id="login">
+
+<div id="id01" class="modal">
+   
+  <form class="modal-content animate" action="/action_page.php" method="post">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="IMG\logimg.png" alt="Avatar" class="avatar">
+    </div>
+
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+        
+      <button type="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+	  <span class="nacc">New Customer <a href="createacc.html">Click here</a></span>
+    </div>
+  </form>
+</div>
+<script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+</div>
+    </ul>
+    <div class="cart">
+      <a href="checkout.html"><img src="IMG\cartimg-removebg-preview.png"></a>
+      <h4>Cart</h4>
+    </div>
+  </header>
+  <section class="front">
+    <ul class="category">
+      <li><a href="mobile.html">Mobile</a></li>
+      <li><a href="#laptop">Laptop</a></li>
+      <li><a href="#book">Books</a></li>
+      <li><a href="#mask">Masks</a></li>
+      <li><a href="#food">Food</a></li>
+    </ul>
+
+  </section>
+   <div class="container">
+      <div id="navbar" class="brands">
+        <div id="img" class="brands">
+		<div class = "main">
+		<div class="track">
+		<ul>
+		<li id="slide1"><img src="IMG\asus-gaming\asus-na-gaming-laptop-1.jpeg" alt=""></li>
+		<li id="slide2"><img src="IMG\asus-gaming\asus-na-gaming-laptop-2.jpeg" alt=""></li>
+		<li id="slide3"><img src="IMG\asus-gaming\asus-na-gaming-laptop-3.jpeg" alt=""></li>
+		<li id="slide4"><img src="IMG\asus-gaming\asus-na-gaming-laptop-4.jpeg" alt=""></li>
+		<li id="slide5"><img src="IMG\asus-gaming\asus-na-gaming-laptop-5.jpeg" alt=""></li>
+		<li id="slide6"><img src="IMG\asus-gaming\asus-na-gaming-laptop-6.jpeg" alt=""></li>
+		<li id="slide7"><img src="IMG\asus-gaming\asus-na-gaming-laptop-7.jpeg" alt=""></li>
+		<li id="slide8"><img src="IMG\asus-gaming\asus-na-gaming-laptop-8.jpeg" alt=""></li>
+		<li id="slide9"><img src="IMG\asus-gaming\asus-na-gaming-laptop-9.jpeg" alt=""></li>
+		<li id="slide10"><img src="IMG\asus-gaming\asus-na-gaming-laptop-10.jpeg" alt=""></li>
+		</ul>
+		</div>
+		<div class="slides">
+		<a href="#slide1"><img src="IMG\asus-gaming\asus-na-gaming-laptop-1.jpeg" alt=""></a>
+		<a href="#slide2"><img src="IMG\asus-gaming\asus-na-gaming-laptop-2.jpeg" alt=""></a>
+		<a href="#slide3"><img src="IMG\asus-gaming\asus-na-gaming-laptop-3.jpeg" alt=""></a>
+		<a href="#slide4"><img src="IMG\asus-gaming\asus-na-gaming-laptop-4.jpeg" alt=""></a>
+		<a href="#slide5"><img src="IMG\asus-gaming\asus-na-gaming-laptop-5.jpeg" alt=""></a>
+		<a href="#slide6"><img src="IMG\asus-gaming\asus-na-gaming-laptop-6.jpeg" alt=""></a>
+		<a href="#slide7"><img src="IMG\asus-gaming\asus-na-gaming-laptop-7.jpeg" alt=""></a>
+		<a href="#slide8"><img src="IMG\asus-gaming\asus-na-gaming-laptop-8.jpeg" alt=""></a>
+		<a href="#slide9"><img src="IMG\asus-gaming\asus-na-gaming-laptop-9.jpeg" alt=""></a>
+		<a href="#slide10"><img src="IMG\asus-gaming\asus-na-gaming-laptop-10.jpeg" alt=""></a>
+		</div>
+		</div>
+         <!--  <img src="F:\ShopIndia\img\mi-redmi8.jpeg" alt="Redmi Note 8" /> -->
+<div class="buy" >
+ <button type="Buy">Add To Cart</button>
+  <button type="Buy">Buy Now</button>
+ </div>
+        </div>
+        <div id="high" class="brands">
+          <h1>Asus VivoBook Gaming Core i7 9th Gen - (16 GB + 32 GB Optane/512 GB SSD/Windows 10 Home/4 GB Graphics/NVIDIA Geforce GTX 1650) F571GT-AL318T Gaming Laptop  (15.6 inch, Star Black, 2.14 kg)</h1>
+    <h3>₹75,990</h3>
+    <h4>Highlights</h4>
+    <ul>
+  <li>NVIDIA Geforce GTX 1650 for Desktop Level Performance</li>
+  <li>15.6 inch Full HD LED Backlit Anti-glare Display(120 Hz Refresh Rate)</li>
+  <li>Light Laptop without Optical Disk Drive</li>
+  <li>Pre-installed Genuine Windows 10 OS</li>
+</ul>
+ <h3>Description</h3>
+<p>
+
+The Asus F571 gaming laptop is the perfect companion for all your daily computing and entertainment needs. This powerful multimedia laptop is powered by a 9th Generation Intel Core i7 processor and an NVIDIA GeForce GTX 1650 graphics processor, making it ideal for use by both professionals and gaming-enthusiasts. It also comes with a highly efficient dual-fan cooling system and ASUS IceCool Technology to ensure this system remains cool even when you’re playing graphic-intensive games.
+</p>
+        </div>
+      </div>
+    </div>
+	<div class="desc">
+
+<h3>Product Description</h3>
+<h4>Powerful Performance</h4>
+<p>Powered by a 9th Generation Intel Core i7 processor with 16 GB of DDR4 RAM, and NVIDIA GeForce GTX 1650 graphics processor with 4 GB of GDDR5 RAM, this ASUS F571 gaming laptop is sure to make your gaming experience all the more enthralling.
+</p>
+<h4>Intel H10 SSD</h4>
+<p>This laptop runs on the Intel H10 Optane Memory with SSD to offer enhanced battery efficiency than a normal SSD as it can seamlessly switch between Optane Memory and PCIe NVMe SSD.</p>
+  <h4>Storage</h4>
+  <p>This laptop comes with a dual-storage design, namely a pre-installed Intel H10 SSD (512 GB PCIe Gen3 SSD + 32 GB Optane Memory) on the M.2 slot and an empty 1 x 6.35-cm (2.5) SATA HDD expansion slot for greater storage flexibility. You can install your favorite apps on the SSD to experience quicker response times and store large files, like movies, music albums, and more on the HDD.</p>
+  <h4>Dual-fan Cooling System</h4>
+  <p>The ASUS F571 laptop features a highly efficient dual-fan cooling system, which uses two heat pipes to offer better cooling even when you’re playing graphic-intensive games.</p>
+  <h4>ASUS IceCool Technology</h4>
+  <p>This technology prevents heat build-up under the palm rest and maintains its temperature between 28°C to 35°C, ensuring you can play games even for extended hours without worrying about any heating issues. This laptop is designed in such a way that the internal heat-producing components are placed away from the user. Also, the heat pipes and vents ensure you stay comfortable even when you’re gaming for long hours.</p>
+  <h4>Stunning Display</h4>
+  <p>Featuring a 39.62 cm (15.6) display, this laptop from ASUS comes with a NanoEdge design that has a thin 7.4 mm side bezel for an immersive viewing experience. Moreover, the IPS-level panel with an ultrafast 120 Hz refresh rate, lets you enjoy smooth and blur-free gameplay at all times. Furthermore, you can view any content on this screen clearly and from any angles, thanks to the wide-viewing angles and vivid colors.</p>
+  <h4>Easy Connectivity</h4>
+  <p>This laptop comes with a reversible USB Type-C (USB-C) port, which offers faster connectivity. This laptop also comes with the USB 3.0 Type-A and USB 2.0 ports, so you can connect a host of compatible USB devices to this gaming laptop. Not only that, but this laptop also features an HDMI output port, a 3-in-1 SD/SDHC/SDXC card reader, and an RJ45 Ethernet port.</p>
+  <h4>ASUS Splendid Technology</h4>
+  <p>Whichever type of content you watch on this laptop, the ASUS Splendid visual optimization technology ensures every detail is displayed in rich and vivid clarity. It features two display modes - normal mode and vivid mode. The normal mode is perfect for daily computing tasks and the vivid mode optimizes contrast so you can view images and videos in stunning clarity.</p>
+  <h4>ASUS Tru2Life Video Technology</h4>
+  <p>This technology makes use of intelligent software algorithms to optimize sharpness and contrast of every video frame and also to improve the contrast by up to 150% for a lifelike viewing experience.</p>
+  <h4>Clear Audio - ASUS SonicMaster Audio Technology</h4>
+  <p>This laptop features the ASUS SonicMaster audio technology that perfectly combines software and hardware, like the smart amplifier technology to deliver an enhanced audio output without distortion. This helps deliver rich and high-fidelity sound at all times, whether you’re playing games or watching a video.</p>
+  
+</div>
+<footer>&copy; Copyright 2020 ShopIndia.in</>
+</footer>
+
